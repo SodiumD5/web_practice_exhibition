@@ -1,0 +1,60 @@
+#body{
+    margin:0;
+    background-color:#F5F5Dc;
+}
+
+#DivideInto3Parts{
+    display:grid;
+    grid-template-columns : 1fr 400px 1fr;
+}
+
+
+#UpandDown{
+    display:grid;
+    grid-template-rows: 200px 100px 1fr;
+}
+
+#picturename{
+    margin-bottom : 30px;
+    margin-top:0;
+    text-align:center;
+    border-bottom: 3px solid black;
+    padding-bottom : 10px;
+}
+
+
+
+#title{
+    display:grid;
+    grid-template-columns: 1fr 550px 1fr;
+}
+
+#leftbutton{
+    text-align : end;
+    margin-right:40px;
+    
+}
+
+#rightbutton{
+    margin-left:40px;
+}
+
+.button{
+    margin-top: 150px;
+    padding:10px;
+    border:0px solid black;
+    background-color:#F5F5Dc;
+}
+#Image{
+    height:500px;
+    width: 400px;
+    border: 10px solid #34ace0;
+}
+
+.material-icons-round.icon{
+    font-size: 125px;
+}
+
+button:focus{
+    outline:0;
+}
